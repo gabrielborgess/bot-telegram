@@ -1,5 +1,5 @@
 const TelegramBot = require('node-telegram-bot-api')
-const telegram = new TelegramBot("812665723:AAFTMGh18B5ffJhtmKQHJr11Pj2H8NzmNFs", { polling: true })
+const telegram = new TelegramBot("TU-TOKEN-NUMBER", { polling: true })
 const translate = require('node-google-translate-skidz')
 
 telegram.on("text", (message) => {
