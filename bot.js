@@ -20,7 +20,7 @@ telegram.on("inline_query", (query) => {
         {
           type: "article",
           id: "translatearticle",
-          title: "Traducime esto",
+          title: "Traduceme esto",
           input_message_content: {
             message_text: result.translation
           }
